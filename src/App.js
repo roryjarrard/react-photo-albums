@@ -1,7 +1,9 @@
+import UsersList from './components/UsersList';
+
 const App = () => {
     return (
-        <div>
-            <h1>Hello, world!</h1>
+        <div className="container mx-auto">
+            <UsersList />
         </div>
     );
 };
