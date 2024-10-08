@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchUsers } from '../store';
+import SkeletonLoader from './SkeletonLoader';
 
 const UsersList = () => {
     const dispatch = useDispatch();
@@ -12,7 +13,7 @@ const UsersList = () => {
     }, [dispatch]);
 
     if (isLoading) {
-        return <div>Loading...</div>;
+        return <SkeletonLoader times={6} className="h-10 w-full" />;
     }
 
     if (error) {
