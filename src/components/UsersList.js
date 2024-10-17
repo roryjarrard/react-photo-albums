@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import { fetchUsers, addUser } from '../store';
+import UsersListItem from './UsersListItem';
 import Button from './Button';
 import SkeletonLoader from './SkeletonLoader';
 
@@ -28,11 +29,7 @@ const UsersList = () => {
         content =  <div>Error fetching data...</div>;
     } else {
         content = data.map((user) => (
-            <div key={user.id} className="border rounded p-4 mb-2">
-                <div className="flex p-2 justify-between items-center cursor-pointer">
-                    {user.name}
-                </div>
-            </div>
+            <UsersListItem key={user.id} user={user} />
         ));
     } 
 
