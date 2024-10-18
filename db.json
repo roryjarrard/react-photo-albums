@@ -2,31 +2,31 @@
   "users": [
     {
       "id": "1",
-      "title": "Myra"
+      "name": "Myra"
     },
     {
       "id": "6da2",
-      "title": "Clark Nicolas"
+      "name": "Clark Nicolas"
     },
     {
       "id": "e2c8",
-      "title": "Tyrone Schiller"
+      "name": "Tyrone Schiller"
     },
     {
       "id": "3780",
-      "title": "Lucy Kirlin"
+      "name": "Lucy Kirlin"
     },
     {
       "id": "9772",
-      "title": "Belinda Franey"
+      "name": "Belinda Franey"
     },
     {
       "id": "1599",
-      "title": "Woodrow Abernathy"
+      "name": "Woodrow Abernathy"
     },
     {
       "id": "e453",
-      "title": "Courtney Cremin"
+      "name": "Courtney Cremin"
     }
   ],
   "albums": [
