@@ -2,33 +2,69 @@
   "users": [
     {
       "id": "1",
-      "name": "Myra"
+      "title": "Myra"
     },
     {
       "id": "6da2",
-      "name": "Clark Nicolas"
+      "title": "Clark Nicolas"
     },
     {
       "id": "e2c8",
-      "name": "Tyrone Schiller"
+      "title": "Tyrone Schiller"
     },
     {
       "id": "3780",
-      "name": "Lucy Kirlin"
+      "title": "Lucy Kirlin"
     },
     {
       "id": "9772",
-      "name": "Belinda Franey"
+      "title": "Belinda Franey"
     },
     {
       "id": "1599",
-      "name": "Woodrow Abernathy"
+      "title": "Woodrow Abernathy"
     },
     {
       "id": "e453",
-      "name": "Courtney Cremin"
+      "title": "Courtney Cremin"
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": "1",
+      "title": "Myra's Album",
+      "userId": "1"
+    },
+    {
+      "id": "2",
+      "title": "Clark Nicolas's Album",
+      "userId": "6da2"
+    },
+    {
+      "id": "3",
+      "title": "Tyrone Schiller's Album",
+      "userId": "e2c8"
+    },
+    {
+      "id": "4",
+      "title": "Lucy Kirlin's Album",
+      "userId": "3780"
+    },
+    {
+      "id": "5",
+      "title": "Belinda Franey's Album",
+      "userId": "9772"
+    },
+    {
+      "id": "6",
+      "title": "Woodrow Abernathy's Album",
+      "userId": "1599"
+    },
+    {
+      "id": "7",
+      "title": "Courtney Cremin's Album",
+      "userId": "e453"
+    }
+  ],
   "photos": []
 }
