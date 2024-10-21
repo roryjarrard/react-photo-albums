@@ -10,7 +10,4 @@ const fetchUsers = createAsyncThunk('users/fetch', async () => {
     return response.data;
 });
 
-// DEV ONLY!
-const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-
 export { fetchUsers };
