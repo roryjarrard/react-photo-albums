@@ -12,7 +12,8 @@ const store = configureStore({
     },
     middleware: (getDefaultMiddleware) => {
         return getDefaultMiddleware()
-            .concat(albumsApi.middleware);
+            .concat(albumsApi.middleware)
+            .concat(photosApi.middleware);
     },
 });
 
