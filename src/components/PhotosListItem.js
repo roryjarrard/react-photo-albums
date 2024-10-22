@@ -1,7 +1,7 @@
-const PhotosListtItem = () => {
+const PhotosListtItem = ({photo}) => {
     return (
         <div>
-            <img src="https://via.placeholder.com/150" alt="placeholder" />
+            <img className="h-20 w-20" src={photo.url} alt="random pic" />
         </div>
     );
 };
