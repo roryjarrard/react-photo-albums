@@ -96,5 +96,11 @@
       "title": "Oriental Concrete Chicken"
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "id": "4f95",
+      "albumId": "d4cd",
+      "url": "https://loremflickr.com/150/150/abstract?lock=4751"
+    }
+  ]
 }
